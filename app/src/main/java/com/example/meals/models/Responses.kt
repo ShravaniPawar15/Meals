@@ -6,6 +6,9 @@ import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
 data class MealsCategoryResponse(val categories: List<MealResponse>)
+{
+
+}
 
 @Entity(tableName = "meal_category_tbl")
 data class MealResponse(
